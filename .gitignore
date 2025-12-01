@@ -1,0 +1,13 @@
+.env
+*.pkl
+*.pth
+__pycache__/
+*.log
+*.egg-info
+Zuba.egg-info/
+Zuba/Prediction/language_classifier_model2.pth
+Zuba/Model_training/gpt2_models/
+Zuba/data/converted_dataset
+Zuba/data/multilingual_dataset
+/dist
+/build
