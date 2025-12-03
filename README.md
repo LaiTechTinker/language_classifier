@@ -27,7 +27,7 @@ The package supports both single-sentence and batch predictions.
 Install the package from **PyPI**:
 
 ```bash
-pip install zuba
+pip install Zuba-classify==0.0.1
 ```
 
 Install **PyTorch** if you do not already have it:
@@ -73,7 +73,8 @@ print(result)
 ```
 
 ---
-
+## Note:
+on the first run of this code block the function will download the trainable weight hosted on hugging face so it might take long to execute on the first run
 ## ⚙️ How It Works
 
 1. Your model class is loaded by the `Classify` constructor.
@@ -110,8 +111,8 @@ The default maximum token length is:
 ## 🔗 Important Constants
 
 ```python
-REPO_ID = "your-username/your-repo-name"
-PACKAGE_LINK = "PYPI_link"
+REPO_ID = "LaiTechTinker/language_classifier"
+PACKAGE_LINK = "pip install Zuba-classify==0.0.1"
 ```
 
 ---

@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="zuba",
-    version="0.0.4",
+    name="Zuba_classify",
+    version="0.0.1",
     packages=find_packages(),
     install_requires=[
         "torch",
@@ -15,8 +15,6 @@ setup(
         "requests",           # for downloading the model
         
     ],
-    include_package_data=True,  #
-    package_data={"Zuba": ["model/*.pth"]},  # include the model folder
     author="Ibrahim Olayiwola",
     description="A lightweight Nigerian language classifier.",
     long_description=long_description,
